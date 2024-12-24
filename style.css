@@ -71,12 +71,21 @@ header p {
 }
 
 .pricing-column.avançado {
-     border-top: 5px solid #FF9800; /* Laranja */
+     border-top: 5px solid #ea5456; /* Vermelho */
 }
 
 .pricing-column.avançado .price {
-     color: #FF9800; /* Laranja */
+     color: #ea5456; /* Vermelho */
 }
+
+.pricing-column.enterprise {
+    border-top: 5px solid #212121; /* Preto */
+}
+
+.pricing-column.enterprise .price {
+     color: #212121; /* Preto */
+}
+
 
 .pricing-column h2 {
     margin-top: 0;
@@ -106,6 +115,7 @@ header p {
 .pricing-column ul.features li:last-child {
     border-bottom: none;
 }
+
 
 .cta {
     display: inline-block;
@@ -137,11 +147,19 @@ header p {
 
 
 .cta.avançado {
-     background-color: #FF9800; /* Laranja */
+     background-color: #ea5456; /* Vermelho */
 }
 
 .cta.avançado:hover {
-     background-color: #F57C00;
+     background-color: #d32f2f;
+}
+
+.cta.enterprise {
+    background-color: #212121; /* Preto */
+}
+
+.cta.enterprise:hover {
+    background-color: #000;
 }
 
 footer {
