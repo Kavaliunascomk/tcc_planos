@@ -178,3 +178,20 @@ footer {
         width: auto;
     }
 }
+
+#continue-button {
+    display: block;
+    margin: 20px auto;
+    background-color: #f0f0f0; /* Cor de fundo clara */
+    color: #212121; /* Cor do texto preta */
+    border: none; /* Remove a borda */
+    padding: 15px 30px; /* Espaçamento interno */
+    border-radius: 5px; /* Borda arredondada */
+    font-size: 1.2em; /* Tamanho da fonte */
+    cursor: pointer; /* Cursor de mão ao passar o mouse */
+    text-align: center; /* Centraliza o texto */
+     transition: background-color 0.3s ease;
+}
+ #continue-button:hover{
+    background-color: #e1e1e1; /* Cor de fundo clara */
+ }
