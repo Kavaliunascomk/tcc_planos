@@ -9,11 +9,42 @@
 <body>
     <header>
         <h1>Escolha o Plano Ideal para Você</h1>
-        <p>Nossos planos foram criados para atender às suas necessidades.</p>
+         <p>Nossos planos foram criados para atender às suas necessidades.</p>
     </header>
 
     <main class="container">
-        <section class="pricing-table">
+        <section class="readme-section">
+            <h2>Página de Planos com Estudo de Cores</h2>
+            <p>Este é um projeto de página de planos criado para um estudo sobre a influência das cores na tomada de decisão. A página apresenta quatro opções de planos (Inicial, Médio, Avançado e Enterprise), cada um com um esquema de cores diferente.</p>
+
+           <h3>O Objetivo do Estudo</h3>
+            <p>O objetivo principal deste estudo é verificar se a cor de um plano influencia a escolha do usuário. Para isso, cada plano foi cuidadosamente projetado com cores que podem transmitir sensações diferentes.</p>
+
+            <h3>Como Participar</h3>
+            <ol>
+                <li><strong>Analise Visualmente:</strong> Explore cada um dos planos e escolha o que você achar mais agradável visualmente.</li>
+                <li><strong>Selecione no Formulário:</strong> Após escolher o seu plano preferido, clique no botão "Escolher Plano" ou "Entrar em Contato" correspondente.</li>
+                <li><strong>Envie o Formulário:</strong> No formulário do Google Forms, você verá o plano selecionado. Preencha os campos adicionais, se houver, e envie o formulário.</li>
+            </ol>
+             <p>Sua participação é muito importante para o sucesso deste estudo. Agradecemos a sua contribuição!</p>
+             <h3>Planos Disponíveis</h3>
+              <ul>
+                   <li><strong>Inicial:</strong> Plano com cor verde, ideal para quem está começando.</li>
+                <li><strong>Médio:</strong> Plano com cor azul, perfeito para quem busca um equilíbrio.</li>
+                <li><strong>Avançado:</strong> Plano com cor vermelha, indicado para quem busca mais recursos.</li>
+                <li><strong>Enterprise:</strong> Plano com cor preta, ideal para grandes empresas e soluções personalizadas.</li>
+              </ul>
+
+              <h3>Informações Adicionais</h3>
+              <ul>
+                <li><strong>HTML e CSS:</strong> Esta página foi construída utilizando HTML e CSS.</li>
+                <li><strong>Google Forms:</strong> O formulário de coleta de dados é do Google Forms.</li>
+                <li><strong>GitHub Pages:</strong> Este site está hospedado no GitHub Pages.</li>
+              </ul>
+              <p>Obrigado por participar!</p>
+             <button id="continue-button" class="cta">Continuar</button>
+        </section>
+         <section id="pricing-table" class="pricing-table" style="display: none;">
              <div class="pricing-column inicial">
                 <h2>Inicial</h2>
                 <p class="price">R$ 49,90 / mês</p>
@@ -66,5 +97,14 @@
     <footer>
         <p>© 2023 Sua Empresa. Todos os direitos reservados.</p>
     </footer>
+   <script>
+    const continueButton = document.getElementById('continue-button');
+    const pricingTable = document.getElementById('pricing-table');
+
+    continueButton.addEventListener('click', function() {
+      pricingTable.style.display = 'flex';
+       continueButton.style.display = 'none';
+    });
+</script>
 </body>
 </html>
